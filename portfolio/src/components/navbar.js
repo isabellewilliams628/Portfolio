@@ -1,18 +1,24 @@
 import React from 'react';
 import '../stylesheets/navbar.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function navbar() {
   return (
-    <div id="nav">
-       <div id="left">Isabelle Williams</div>
-       <div id="mid">
-            <div id="tab">Home</div>
-            <div id="tab">Software Development</div>
-            <div id="tab">UX Design</div>
-            <div id="tab">Resume</div>
-            <div id="tab">Contact</div>
+    <div className="nav">
+       <div className="left">Isabelle Williams</div>
+       <div className="mid">
+            <div className="tab">Home</div>
+            <div className="tab">Software Development</div>
+            <div className="tab">UX Design</div>
+            <div className="tab">Resume</div>
+            <div className="tab">Contact</div>
        </div>
-       <div id="right"></div> 
+       <div className="right">
+            <FontAwesomeIcon className="git" icon={faGithub} />
+            <FontAwesomeIcon className="linked" icon={faLinkedin} />
+       </div> 
     </div>
   )
 }

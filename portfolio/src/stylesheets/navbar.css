@@ -1,17 +1,62 @@
 .nav{
-    font-family: 'DM Sans', sans-serif;
     display: flex;
+    justify-content: space-between;
 }
 
 .left{
-
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
 .mid{
     display: flex;
+    margin-top: 20px;
 }
 
-.tab{}
+.tab{
+    display: flex;
+    margin-right: 70px;
+    display: inline-block;
+    position: relative;
+}
 
-.right{}
+.tab:hover{
+    cursor: pointer;
+}
+
+.tab::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #EDCBD4;
+    transition: transform 0.25s ease-out;
+
+}
+
+.tab:hover::after{
+    transform: scaleX(1);
+    
+}
+
+.right{
+    display: flex;
+    margin-top: 22px;
+    margin-right:70px;
+}
+
+ .git{
+    margin-right: 20px;
+ }
+
+ .git:hover{
+    cursor: pointer;
+ }
+ .linked:hover{
+    cursor: pointer;
+ }
+
 
