@@ -1,0 +1,48 @@
+.proj-img{
+    height: 30vh;
+    width: 30vw;
+}
+
+.title{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+
+.project{
+    display: flex;
+    margin-right: 70px;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.proj-name{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.text{
+    margin-right: 420px;
+    width: 40vw;
+}
+
+.desc{
+    margin-top: 10px;
+}
+
+.dev-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 6vw;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #EDCBD4;
+   
+}

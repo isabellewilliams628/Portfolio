@@ -1,5 +1,8 @@
 .intro-card{
     display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-between;
 }
 
  .intro-text{
@@ -11,9 +14,84 @@
 
  h1{
     font-size: 40px;
+    font-weight: 500;
  }
 
- p{
+ h2{
+   font-size: 24px;
+   font-weight: 400;
+ }
+
+ a{
     font-size: 24px;
     text-align: left;
  }
+ 
+ .middle-card{
+    background-color: #EDCBD4;
+    height: 65vh;
+    width: 100vw;
+
+ }
+
+ .middle-header{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 500;
+
+ }
+
+ .content{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .block{
+    height: 47vh;
+    width: 22vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+
+ .block-header{
+   font-size: 24px;
+   margin-top: 10px;
+   text-align: center;
+ }
+
+ .block-text{
+   padding: 15px;
+   text-align: center;
+ }
+
+ .experience-card{
+   margin-top: 30px;
+   height: 65vh;
+   width: 100vw;
+   display: flex;
+   align-items: flex-start;
+ }
+ 
+ .exp-text{
+   margin-left: 70px;
+ }
+
+#up{
+   margin-right: 70px;
+}
+
+.intro-image{
+   background-color: black;
+   height: 40vh;
+   width: 20vw;
+   border-radius: 50%;
+   margin-right: 100px;
+   background-image: url('../assets/portimage.jpg');
+   background-position: center center;
+   background-size: 420px;
+}
