@@ -16,9 +16,6 @@ function navbar() {
           <Link to="/development" style={{ textDecoration: 'none', color: 'inherit'  }}>
             <div className="tab">Software Development</div>
           </Link>
-          <Link to="/uxdesign" style={{ textDecoration: 'none', color: 'inherit'  }}>
-            <div className="tab">UX Design</div>
-          </Link>
           <Link to="/resume" style={{ textDecoration: 'none', color: 'inherit'  }}>
             <div className="tab">Resume</div>
           </Link>
