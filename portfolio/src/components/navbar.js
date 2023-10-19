@@ -19,9 +19,7 @@ function navbar() {
           <Link to="/resume" style={{ textDecoration: 'none', color: 'inherit'  }}>
             <div className="tab">Resume</div>
           </Link>
-          <Link to="/contact" style={{ textDecoration: 'none', color: 'inherit'  }}>
-            <div className="tab">Contact</div>
-          </Link>
+
        </div>
        <div className="right">
        <a href="https://github.com/isabellewilliams628" target="_blank" style={{ textDecoration: 'none', color: 'inherit'  }}>

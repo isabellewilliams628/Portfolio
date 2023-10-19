@@ -1,0 +1,25 @@
+.res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+.btn{
+    height:5vh;
+    width: 9vw;
+    background-color: #EDCBD4;
+    margin-top: 100px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
